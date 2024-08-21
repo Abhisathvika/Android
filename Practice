@@ -82,3 +82,49 @@ fun main(){
 print(name3)
     
 }
+
+//21st August, 2024
+
+/*fun main(){
+    val numbers= arrayOf(1,2,3,4,5) //1d array
+    val words: Array<String> = arrayOf("Kotlin", "java", "python")
+    val squares = Array(5){i-> i*i} //lambda function 
+    println(numbers[0])
+    println(words[1])
+    println(squares[2])
+    val firstNumber = numbers[0]
+    val secondWord = words[1]
+    println("first number : $firstNumber")
+    println(secondWord)
+    numbers[0] =10 //modifying the value
+    println(numbers[0])
+    println("Modified Array:")
+    for(num in numbers){ // to get the whole array
+        println("$num")
+    }
+    
+    val matrix = arrayOf(
+        arrayOf(5,6,7,8,9),
+        arrayOf(7,8,9,10),
+        arrayOf(11,12,1,4))
+    println(matrix[0][1])//creating matrix
+    
+}*/
+
+/*fun main(args: Array<String>){// type conversion
+    val x : Int = 100 
+    val y: Long =x.toLong() 
+    println(y)
+}*/
+
+//safe and unsafe casting 
+fun main(){
+    var a = "hi"
+    var b :String = a as String
+    println("unsafe casting result : $b")
+    //val c :Int = a as Int
+    //println("unsafe casting result: $c")// here we will get classcastexception
+    val d: Int?= a as? Int
+    println("safe casting: $d")
+    
+}
