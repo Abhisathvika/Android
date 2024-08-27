@@ -156,3 +156,85 @@ val dayofWeek= 3
        
     }
     }
+
+    //27th August
+    /*
+fun main(){
+    for(i in 1..5){
+        println("Number: $i")
+    }
+    for(j in 1 until 6){
+        println("Numbers: $j")
+    }
+    //reverse loop
+    println("\nReverse loop")
+    for(k in 5 downTo 2){
+        println(k)
+    
+    }
+    println("")
+    println("Reverse with a step of 2")
+    for(l in 5 downTo 1 step 2){
+        println(l)
+    }
+    //Iterating over the list
+    println("\nIterating over a list")
+    val fruits= listOf("Apple", "Banana", "Cherry")
+    for(fruit in fruits){
+        println("Fruit: $fruit")
+    }
+    
+    
+    //Iterating over the list with the indices
+    /*for(fruit in fruits.indices){
+        println("Fruit at index $index: ${fruits[index]}")
+    }
+    */
+    
+    
+    //while loop
+    /*println("\nWhile loop")
+    var num=8
+    while(num>0){
+        println("Value is: $num")
+        num--
+    }
+    */
+    
+    
+    //Do-while loop
+    println("Do while loop")
+    var num2= 1
+    do{
+        println("value: $num2")
+        num2++
+    }
+    while(num2 <= 5)
+    
+    
+    println("\nNumbers in reverse order")
+    var num3= 5
+    do{
+        println("value: $num3")
+        num3--
+    }
+    while(num3 >=1 )
+   
+    
+}
+*/
+
+  //Functions in Kotlin
+    //Types are : predefined and user- defined
+    //Built in: println(), str.length(), readLine(), uppercase(), lowercase()
+    
+/*fun demo(){
+    println("Hello World!")
+    
+}
+fun main(args: Array<String>){
+    demo()
+    println("Bye!")
+    
+}
+*/
