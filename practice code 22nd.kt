@@ -238,3 +238,33 @@ fun main(args: Array<String>){
     
 }
 */
+
+
+//28th August 2024 Homework
+
+/*fun factorial(n: Int): Long {
+    return if (n == 0 || n == 1) 1 else n * factorial(n - 1)
+}
+
+fun main() {
+    print("Enter a number: ")
+    val number = 5
+    val result = factorial(number)
+    println("Factorial of $number is: $result")
+}
+
+//fibonacci number
+fun fibonacci(n: Int): Int {
+    if (n == 0) return 0
+    if (n == 1) return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+fun main() {
+    val number = 10  // Specify the number of terms here
+    println("Fibonacci series up to $number terms:")
+    for (i in 0 until number) {
+        print("${fibonacci(i)} ")
+    }
+}
+*/
