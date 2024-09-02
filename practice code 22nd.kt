@@ -268,3 +268,95 @@ fun main() {
     }
 }
 */
+
+//1st september, 2024
+/Primary and secondary constructors
+
+//Primary constructor is a simple, concise way to initialise a class. It's defined right after the class name. It is used when you want to set up properties 
+// as the object is created
+//Secondary constructor is an additional way to create an object
+
+
+
+//Using a secondary constructor
+/*class Person{
+    var name: String
+    var age: Int
+    
+    constructor(x: String, y: Int){
+        this.name= x
+        this.age= y
+    }
+    constructor(x:String){
+        this.name=x
+        this.age=0
+    }
+    constructor(){
+        this.name= "Rahul"
+        this.age= 32
+    }
+    fun intro(){
+        println("my name is $name and age is $age")
+    }
+    
+
+}
+fun main(){
+    var a= Person("Riya", 22)
+    a.intro()
+    var b= Person()
+    b.intro()
+    var c= Person("Heena")
+    c.intro()
+}
+*/
+
+
+//Using a primary constructor
+
+/*class Person(var name: String, var age:Int){
+    constructor(x:String):this(){
+        this.name=x
+        this.age=0
+        
+    }
+    constructor(): this("rahul", 50)
+    fun intro(){
+        println("my name is $name and age is $age")
+    }
+}
+fun main(){
+    var a= Person("Riya", 22)
+    a.intro()
+    var b= Person()
+    b.intro()
+    var c= Person("Heena")
+    c.intro()
+}
+*/
+
+
+//Inheritance in Kotlin
+
+
+/*open class Rectangle(val a: Double, val b:Double){
+    fun area(): Double{
+        return a*b
+    }
+    open fun display(){
+        println("area of rectangle with dimensions $a*$b is ${area()}")
+    }
+}
+class Square(side:Double):Rectangle(side, side){
+    override fun display(){
+        println("area of square with dimensions $a is ${area()}")
+    }
+}
+fun main(){
+    val mySquare= Square(3.0)
+    mySquare.display()
+    val myRectangle= Rectangle(4.0, 5.0)
+    myRectangle.display()
+}
+
+*/
