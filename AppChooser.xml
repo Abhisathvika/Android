@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppChooser">
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792"
+        tools:layout_editor_absoluteX="168dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Dream as if you’ll live forever, live as if you’ll die today."
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/checkBox3"
+        android:text="Do not let making a living prevent you from making a life"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I find that the harder I work, the more luck I seem to have."
+        app:layout_constraintTop_toBottomOf="@id/checkBox4"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The secret to getting ahead is getting started"
+        app:layout_constraintTop_toBottomOf="@id/checkBox5"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In order to write about life first you must live it."
+        app:layout_constraintTop_toBottomOf="@id/checkBox6"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you cannot do great things, do small things in a great way"
+        app:layout_constraintTop_toBottomOf="@id/checkBox7"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
